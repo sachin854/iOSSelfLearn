@@ -1,18 +1,30 @@
-//
-//  SplashScreen.swift
-//  iosQiki
-//
-//  Created by Sachin on 04/03/24.
-//
-
 import SwiftUI
+import Lottie
 
 struct SplashScreen: View {
+    @State private var isActive = false
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            VStack {
+                LottieView(animation: .named("splash-light.json"))
+                    .playing(loopMode: .loop)
+            }
+            .onAppear {
+                DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+                    self.isActive = true
+                }
+            }
+            .navigationBarHidden(true)
+            .fullScreenCover(isPresented: $isActive) {
+                WelcomeIntroScreen()
+            }
+        }
     }
 }
+
 
 #Preview {
     SplashScreen()
 }
+

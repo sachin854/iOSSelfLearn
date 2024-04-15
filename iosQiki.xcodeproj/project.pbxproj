@@ -8,12 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		5C7651252B94E9A50047E93C /* iosQikiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7651242B94E9A50047E93C /* iosQikiApp.swift */; };
-		5C7651272B94E9A50047E93C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7651262B94E9A50047E93C /* ContentView.swift */; };
 		5C7651292B94E9A70047E93C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C7651282B94E9A70047E93C /* Assets.xcassets */; };
 		5C76512C2B94E9A70047E93C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C76512B2B94E9A70047E93C /* Preview Assets.xcassets */; };
 		5C7651362B94E9A70047E93C /* iosQikiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7651352B94E9A70047E93C /* iosQikiTests.swift */; };
 		5C7651402B94E9A70047E93C /* iosQikiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C76513F2B94E9A70047E93C /* iosQikiUITests.swift */; };
 		5C7651422B94E9A70047E93C /* iosQikiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7651412B94E9A70047E93C /* iosQikiUITestsLaunchTests.swift */; };
+		5C7651542B94EE590047E93C /* WelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7651532B94EE590047E93C /* WelcomeScreen.swift */; };
+		5C7651562B94FB420047E93C /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7651552B94FB420047E93C /* SplashScreen.swift */; };
+		5C7651592B94FBEB0047E93C /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 5C7651582B94FBEB0047E93C /* Lottie */; };
+		5C7ED4492B98E1B800AD14DB /* CountryPicker in Frameworks */ = {isa = PBXBuildFile; productRef = 5C7ED4482B98E1B800AD14DB /* CountryPicker */; };
+		5C7ED44F2B98EA7100AD14DB /* LanguageSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7ED44E2B98EA7100AD14DB /* LanguageSelector.swift */; };
+		5C7ED4512B98EF4300AD14DB /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7ED4502B98EF4300AD14DB /* LoginScreen.swift */; };
+		5C7ED4532B98F10600AD14DB /* AgreementPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7ED4522B98F10600AD14DB /* AgreementPage.swift */; };
+		5C7ED4552B98F4E400AD14DB /* OtpScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7ED4542B98F4E400AD14DB /* OtpScreen.swift */; };
+		5C8571452B962B7700225367 /* CreateAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8571442B962B7700225367 /* CreateAccount.swift */; };
+		5C8571482B962FD200225367 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8571472B962FD200225367 /* Color.swift */; };
+		5C85714B2B963C0A00225367 /* SVGKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5C85714A2B963C0A00225367 /* SVGKit */; };
+		5C85714D2B963C0A00225367 /* SVGKitSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 5C85714C2B963C0A00225367 /* SVGKitSwift */; };
+		5C85714F2B9647CD00225367 /* RegistrationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C85714E2B9647CD00225367 /* RegistrationScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +48,6 @@
 /* Begin PBXFileReference section */
 		5C7651212B94E9A50047E93C /* iosQiki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosQiki.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C7651242B94E9A50047E93C /* iosQikiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosQikiApp.swift; sourceTree = "<group>"; };
-		5C7651262B94E9A50047E93C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5C7651282B94E9A70047E93C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C76512B2B94E9A70047E93C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5C7651312B94E9A70047E93C /* iosQikiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iosQikiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +55,16 @@
 		5C76513B2B94E9A70047E93C /* iosQikiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iosQikiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C76513F2B94E9A70047E93C /* iosQikiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosQikiUITests.swift; sourceTree = "<group>"; };
 		5C7651412B94E9A70047E93C /* iosQikiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosQikiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5C7651532B94EE590047E93C /* WelcomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreen.swift; sourceTree = "<group>"; };
+		5C7651552B94FB420047E93C /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		5C7ED44E2B98EA7100AD14DB /* LanguageSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageSelector.swift; sourceTree = "<group>"; };
+		5C7ED4502B98EF4300AD14DB /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		5C7ED4522B98F10600AD14DB /* AgreementPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgreementPage.swift; sourceTree = "<group>"; };
+		5C7ED4542B98F4E400AD14DB /* OtpScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpScreen.swift; sourceTree = "<group>"; };
+		5C8571442B962B7700225367 /* CreateAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccount.swift; sourceTree = "<group>"; };
+		5C8571462B962D9900225367 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5C8571472B962FD200225367 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		5C85714E2B9647CD00225367 /* RegistrationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +72,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C85714D2B963C0A00225367 /* SVGKitSwift in Frameworks */,
+				5C85714B2B963C0A00225367 /* SVGKit in Frameworks */,
+				5C7651592B94FBEB0047E93C /* Lottie in Frameworks */,
+				5C7ED4492B98E1B800AD14DB /* CountryPicker in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,8 +119,10 @@
 		5C7651232B94E9A50047E93C /* iosQiki */ = {
 			isa = PBXGroup;
 			children = (
+				5C7ED4562B99823E00AD14DB /* Widgets */,
+				5C8571462B962D9900225367 /* Info.plist */,
+				5C76514E2B94EA4F0047E93C /* Ui */,
 				5C7651242B94E9A50047E93C /* iosQikiApp.swift */,
-				5C7651262B94E9A50047E93C /* ContentView.swift */,
 				5C7651282B94E9A70047E93C /* Assets.xcassets */,
 				5C76512A2B94E9A70047E93C /* Preview Content */,
 			);
@@ -127,6 +154,45 @@
 			path = iosQikiUITests;
 			sourceTree = "<group>";
 		};
+		5C76514E2B94EA4F0047E93C /* Ui */ = {
+			isa = PBXGroup;
+			children = (
+				5C7651502B94EB260047E93C /* WelcomeScreen */,
+				5C76514F2B94EA740047E93C /* GuestFlow */,
+			);
+			path = Ui;
+			sourceTree = "<group>";
+		};
+		5C76514F2B94EA740047E93C /* GuestFlow */ = {
+			isa = PBXGroup;
+			children = (
+				5C8571442B962B7700225367 /* CreateAccount.swift */,
+				5C85714E2B9647CD00225367 /* RegistrationScreen.swift */,
+				5C7ED4502B98EF4300AD14DB /* LoginScreen.swift */,
+				5C7ED4522B98F10600AD14DB /* AgreementPage.swift */,
+				5C7ED4542B98F4E400AD14DB /* OtpScreen.swift */,
+			);
+			path = GuestFlow;
+			sourceTree = "<group>";
+		};
+		5C7651502B94EB260047E93C /* WelcomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				5C7651532B94EE590047E93C /* WelcomeScreen.swift */,
+				5C7651552B94FB420047E93C /* SplashScreen.swift */,
+			);
+			path = WelcomeScreen;
+			sourceTree = "<group>";
+		};
+		5C7ED4562B99823E00AD14DB /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				5C7ED44E2B98EA7100AD14DB /* LanguageSelector.swift */,
+				5C8571472B962FD200225367 /* Color.swift */,
+			);
+			path = Widgets;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +209,12 @@
 			dependencies = (
 			);
 			name = iosQiki;
+			packageProductDependencies = (
+				5C7651582B94FBEB0047E93C /* Lottie */,
+				5C85714A2B963C0A00225367 /* SVGKit */,
+				5C85714C2B963C0A00225367 /* SVGKitSwift */,
+				5C7ED4482B98E1B800AD14DB /* CountryPicker */,
+			);
 			productName = iosQiki;
 			productReference = 5C7651212B94E9A50047E93C /* iosQiki.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +287,11 @@
 				Base,
 			);
 			mainGroup = 5C7651182B94E9A50047E93C;
+			packageReferences = (
+				5C7651572B94FBEB0047E93C /* XCRemoteSwiftPackageReference "lottie-spm" */,
+				5C8571492B963AB600225367 /* XCRemoteSwiftPackageReference "SVGKit" */,
+				5C7ED4472B98E1B800AD14DB /* XCRemoteSwiftPackageReference "CountryPicker" */,
+			);
 			productRefGroup = 5C7651222B94E9A50047E93C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +334,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C7651272B94E9A50047E93C /* ContentView.swift in Sources */,
+				5C85714F2B9647CD00225367 /* RegistrationScreen.swift in Sources */,
+				5C7651562B94FB420047E93C /* SplashScreen.swift in Sources */,
+				5C7ED44F2B98EA7100AD14DB /* LanguageSelector.swift in Sources */,
+				5C7651542B94EE590047E93C /* WelcomeScreen.swift in Sources */,
 				5C7651252B94E9A50047E93C /* iosQikiApp.swift in Sources */,
+				5C7ED4552B98F4E400AD14DB /* OtpScreen.swift in Sources */,
+				5C7ED4512B98EF4300AD14DB /* LoginScreen.swift in Sources */,
+				5C8571482B962FD200225367 /* Color.swift in Sources */,
+				5C8571452B962B7700225367 /* CreateAccount.swift in Sources */,
+				5C7ED4532B98F10600AD14DB /* AgreementPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,9 +510,11 @@
 				DEVELOPMENT_TEAM = FMF8QQ3KJ4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iosQiki/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -454,9 +541,11 @@
 				DEVELOPMENT_TEAM = FMF8QQ3KJ4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iosQiki/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -588,6 +677,56 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5C7651572B94FBEB0047E93C /* XCRemoteSwiftPackageReference "lottie-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-spm";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.4.1;
+			};
+		};
+		5C7ED4472B98E1B800AD14DB /* XCRemoteSwiftPackageReference "CountryPicker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mobven/CountryPicker.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.3;
+			};
+		};
+		5C8571492B963AB600225367 /* XCRemoteSwiftPackageReference "SVGKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SVGKit/SVGKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5C7651582B94FBEB0047E93C /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5C7651572B94FBEB0047E93C /* XCRemoteSwiftPackageReference "lottie-spm" */;
+			productName = Lottie;
+		};
+		5C7ED4482B98E1B800AD14DB /* CountryPicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5C7ED4472B98E1B800AD14DB /* XCRemoteSwiftPackageReference "CountryPicker" */;
+			productName = CountryPicker;
+		};
+		5C85714A2B963C0A00225367 /* SVGKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5C8571492B963AB600225367 /* XCRemoteSwiftPackageReference "SVGKit" */;
+			productName = SVGKit;
+		};
+		5C85714C2B963C0A00225367 /* SVGKitSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5C8571492B963AB600225367 /* XCRemoteSwiftPackageReference "SVGKit" */;
+			productName = SVGKitSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5C7651192B94E9A50047E93C /* Project object */;
 }

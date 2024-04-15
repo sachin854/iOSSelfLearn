@@ -73,3 +73,7 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+#Preview {
+    ContentView()
+}
